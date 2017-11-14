@@ -1,0 +1,5 @@
+Funcionamiento Array Vector3
+
+Para lograr generar el radio de la esfera que contenga todos los vectores almacenados en la Lista de Vector3.  Se realizaron 2 super vectores nuevos, uno con los valores máximos de eje máximo de todos los vectores del arreglo y otro con los valores mínimos de estos. La distancia de estos 2 super vectores representan el diámetro de la esfera que es necesaria para contener los demás vectores con menor magnitud. Ya que se conoce el diámetro de la esfera, la fórmula matemática para hallar el radio es Diámetro/2.
+
+En la escena Vecto3Operator se encuentra, además del resultado del radio y diámetro, un ejemplo grafico del funcionamiento de este método que podrá ser visto desde el editor propio de la escena.
